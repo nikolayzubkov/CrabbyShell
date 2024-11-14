@@ -1,7 +1,8 @@
 import os
 import subprocess
 from rich import print
-
+from pathlib import Path
+home = Path.home()
 # ⟩ ⎩⎭
 def execute_command(command):
     try:
